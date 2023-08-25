@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+export(subsetSeurat)
+export(Seurat_diff)
+importFrom(Seurat,FetchData)
+importFrom(Seurat,AverageExpression)
+importFrom(Seurat,SetIdent)
+importFrom(Seurat,FindMarkers)
+importFrom(Seurat,Idents)
+
